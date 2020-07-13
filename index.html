@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA_Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CV of Mogamat Tariq Abrahams -->
+    <title> Curriculum Vitae Of Mogamat Tariq Abrahams </title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigion="anonymous"></script>
+</head>
+
+<body>
+    <section>
+        <!--navigation---------------------------->
+        <nav>
+            <!--logo----------------------------->
+            <a id="MyCV" class="logo">Tariq Abrahams CV</a>
+            <!--menu------------------->
+            <ul>
+                <li><a href="#MyCV" class="active">Home</a></li>
+                    <li><a href="#return-about">About</a></li>
+                        <li><a href="#return-contact">Contact</a></li>
+
+            </ul>
+            <!--bars-------------------------->
+            <div class="toggle"></div>
+
+        </nav>
+        <!--text------------------------------->
+        <div class="text-container">
+            <p>Hi There,</p>
+            <p>I'm Tariq</p>
+            <p>I am an Aspiring Software Engineer</p>
+            <a href="mailto: abrahams1881@gmail.com"><button class="hire-btn">Hire Me</button></a>
+            <a href="TariqAbrahamsCV.pdf" download="TariqAbrahamsCV.pdf" target="_blank"><button class="download-resume">Download CV</button></a>
+        </div>
+        <!--model---------------------------->
+        <img src="CV_Picture.jpg" class="model" alt="CV_Picture">
+
+    </section>
+    <!--About Section------------------------->
+    <div class="about-container">
+        <!--img----------------------->
+        <img src="about.jpg">
+        <!--about--------------------->
+        <div id="return-about" class="about-text">
+            <p>About Me</p>
+            <p>Aspiring Software Engineer</p>
+            <p>I'm a very energetic and productive person
+                Who always ensures that desired results are met Effectively & Efficiently,
+                I'm taking the leap to start a career in Software Engineering,</p>
+            <p>If given the opportunity I believe I can be a great asset to your establishment
+                I live to better my skills and knowledge
+            and I believe I could do so through your establishment</p>
+
+        </div>
+    </div>
+    <!--Skills & Education------------>
+    <div class="history">
+        <!--Text---------------->
+        <div class="history-text">
+        <p>Work Experience</p>
+        <p>Skills & Education</p>
+        <p>I'm currently employed at the Table Bay Hotel as a Food & Beverage Supervisor,
+            I obtained this position shorty after applying for it after I completed my first year and gained my Certificate 
+        In Food and Beverage, before I was promoted I was Buffet Supervisor, I love what i do but im making the leap over to
+    Software Engineering as it has always been my passion to code.</p>
+    </div>
+    <!--box----------------------------->
+    <div class="box-container">
+        <!--1--------------------------->
+        <div class="box-1">
+            <span>1</span>
+            <p class="heading">Skills @ Hyperion Dev</p>
+            <p class="details">Python<br>
+                Java<br>
+                Git<br>
+                GitHub<br>
+                MySQL Databases
+            </p>
+
+        </div>
+        <!--2--------------------------->
+        <div class="box-2">
+            <span>2</span>
+            <p class="heading">Skills @ Sun International</p>
+            <p class="details">National Certificate In Food & Beverage<br>
+                WSET Level 1 - Wine Training<br>
+                Microsoft Office
+            </p>
+        </div>
+        <!--3--------------------------->
+        <div class="box-3">
+            <span>3</span>
+            <p class="heading">Education History</p>
+            <p class="details">Voorbrug Senior Secondary School<br>Matriculated in 2015<br>
+                International Hotel School<br>Completed in 2017 - 2018<br>
+                Hyperion Dev Currently A Student.
+            </p>
+        </div>
+
+    </div>
+    </div>
+    <!--contact me---------------->
+    <footer>
+        <p>Contact</p>
+        <p>You Are More Than Welcome To Contact Me On The Following Platforms</p>
+        <div id="return-contact" class="social-icons">
+            <a target="_blank" href = "https://www.linkedin.com/in/mogamat-tariq-abrahams-02494019a/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            <a target="_blank" href = "mailto: abrahams1881@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            <a href="#MyCV"> <i class="fa fa-arrow-circle-up" aria-hidden="true"> </i> Top </a>
+
+        </div>
+        <!--copyright-------------->
+        <p class="copyright">Copyright by Tariq Abrahams</p>
+    </footer>
+    <!--JQuery------------------------->
+    <script type="text/javascript" src="jQuery.js"></script>
+    <script type="text/javascript">
+    	$(document).ready(function(){
+    		$('.toggle').click(function(){
+    			$('.toggle').toggleClass('active')
+    			$('nav').toggleClass('active')
+    		})
+    	})
+
+    </script>
+
+
+</body>
+
+</html>
